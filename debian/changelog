@@ -19,7 +19,6 @@ mx-system-sounds (16.5mx15) mx; urgency=medium
 mx-system-sounds (16.4.1mx15) mx; urgency=medium
 
   * change control file dependencies
-  * 
 
  -- dolphin oracle <dolphinoracle@gmail.com>  Thu, 21 Apr 2016 14:28:15 -0400
 
