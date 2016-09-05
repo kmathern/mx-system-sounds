@@ -1,3 +1,15 @@
+mx-system-sounds (16.8mx15) mx; urgency=medium
+
+  * Clean all the cruft (debs, build files, translation .qm files, .xz, etc.)
+    from the source.
+  * Add qttools5-dev-tools to build-deps, since it provides the Qt 5 lrelease.
+  * Fixed lrelease in the rules file calling the wrong .pro file.
+  * General clean up of the control and rules file.
+  * Added postinst, postinst, preinst maintainer scripts to make the upgrade
+    from original mx-event-sounds (version 0.1.1) to current versions easier.  
+
+ -- Steven Pusser (Stevo) <maintainer@mepiscommunity.org>  Wed, 31 Aug 2016 13:43:31 -0700
+
 mx-system-sounds (16.5mx15) mx; urgency=medium
 
   * new desktop file
